@@ -9,16 +9,14 @@ Aula 4 Ex 4
 """
 
 lista = []
-for i in range(10):
+for i in range(5):
     lista.append(input("Nome:"))
 
 def posicao(l,i):
     try:
-        if i >= 5:
-            raise IndexError
-        print('Indice',i,':',l[i])
-        
+        return  l[i]  
     except IndexError:
-        print('Indice deve ser de 0 a 4')
+        return "Indice não existe"
         
-posicao(lista,15)
+n = posicao(lista,8)
+print(n)
