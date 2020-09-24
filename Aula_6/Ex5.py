@@ -14,9 +14,9 @@ Metodos: estudar(horas), dormir(horas)
 
 class Aluno():
     # atributos
-    def __init__(self):
-        self.nome = None
-        self.tempo_sem_dormir = 0
+    def __init__(self, nome=None, tempo_sem_dormir=0):
+        self.nome = nome
+        self.tempo_sem_dormir = tempo_sem_dormir
 
     def estudar(self, horas):
         self.tempo_sem_dormir += horas
