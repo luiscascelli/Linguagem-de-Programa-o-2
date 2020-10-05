@@ -6,9 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-<<<<<<< HEAD
 recent_files = []
-=======
-recent_files = ['Ex1.py', 'Ex2.py', 'Ex3.py', 'Ex4.py']
->>>>>>> 901ca449c1cbedb00017af74278bd23c6fd18f8c
 
